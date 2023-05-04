@@ -1,0 +1,16 @@
+/* set body background to background.jpeg */
+body {
+	background: linear-gradient(to right, #ccaac3, #bbc4e3);
+	margin: 0px;
+	margin-bottom: 50px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#tsparticles {
+	z-index: -1;
+}
