@@ -21,7 +21,7 @@ const ImageUpload = ({ model }) => {
 
 	const cropData = useMemo(() => {
 		const cropped = {};
-		cropped.x = crop?.x / 500;
+		cropped.x = crop?.x / document.getElementById("image")?.width;
 		cropped.y = crop?.y / 500;
 		cropped.height = crop?.height / 500;
 		cropped.width = crop?.width / document.getElementById("image")?.width;

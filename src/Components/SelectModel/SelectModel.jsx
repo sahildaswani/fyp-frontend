@@ -14,8 +14,6 @@ const SelectModels = ({ model, setModel }) => {
 	const modelNames = Object.keys(models);
 	const accuracy = useMemo(() => models[model].accuracy, [model]);
 
-	console.log(accuracy);
-
 	return (
 		<>
 			<FormControl sx={{ m: "30px", maxWidth: 500 }}>
